@@ -207,3 +207,46 @@ nav {
 
 
 /* Media screen */
+
+@media screen and (max-width:688px) and (min-width:360px) {
+
+    .navbar {
+        width: 100%;
+
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+
+    .logo-name h1 {
+        font-size: 60px;
+    }
+
+    .content-name p {
+        font-size: 30px;
+    }
+
+    .search-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 10px;
+    }
+
+    .search-locate {
+        width: 90%;
+    }
+
+    .search-item {
+        width: 90%;
+    }
+
+    .search-item input {
+        width: 90%;
+    }
+
+    .banner-img img {}
+
+}
