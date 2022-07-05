@@ -260,7 +260,7 @@ nav {
         width: 90%;
         top: 10px;
         font-size: 1.5rem;
-        color: #4e4e4e;
+        color: #3a3a3a;
     }
 
     #nav-close {
@@ -274,12 +274,8 @@ nav {
         /* color: #3e3e3e; */
     }
 
-    .nav-list a {
-        color: black;
-    }
-
     .nav-list a:hover {
-        color: darkgray;
+        color: black;
     }
 
     .navbar .show-menu {
@@ -344,7 +340,8 @@ nav {
     }
 
     .con-head p {
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 500;
     }
 
 }
