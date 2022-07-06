@@ -244,12 +244,12 @@ nav {
 
     .navbar .nav-list {
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -100%;
         background-color: white;
         width: 100%;
-        height: 550vh;
+        height: 100%;
         padding: 7rem 0 0 1rem;
         transition: 0.3s linear;
     }
@@ -319,11 +319,6 @@ nav {
         flex-direction: column;
         justify-content: center;
         margin: 20px 10px;
-    }
-
-    .con-wrap {
-
-        top: 30%;
     }
 
     .search-locate {
