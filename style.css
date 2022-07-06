@@ -76,7 +76,7 @@ li {
     font-weight: 800;
     text-shadow: 10px;
     align-items: center;
-
+    letter-spacing: -3px;
 }
 
 .content-name p {
@@ -215,6 +215,7 @@ p {
     margin-top: 10px;
     text-align: center;
     font-size: 14px;
+    font-style: italic;
 }
 
 /* 
@@ -261,7 +262,7 @@ nav {
         width: 90%;
         top: 10px;
         font-size: 1.5rem;
-        color: #3a3a3a;
+        color: #000;
     }
 
     #nav-close {
@@ -272,6 +273,7 @@ nav {
         font-style: italic;
         font-weight: 800;
         font-size: 30px;
+        letter-spacing: -1px;
         /* color: #3e3e3e; */
     }
 
